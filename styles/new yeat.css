@@ -152,8 +152,17 @@ div .party-everything {
 
 /* Portfolio related Styles */
 
+.all-about-portfolio {
+    background-color: white;
+    margin: auto;
+}
+
+.rectengle-pricture a{
+    margin-right: 20px;
+}
+
+
 .our-awesome-portfolio {
-    display: block;
     margin: auto;
 }
 
@@ -164,7 +173,7 @@ div .best-gift {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 120px 1200px 16px 270px;
+    margin: 120px 120px 16px 270px;
 }
 
 div .head-portfolio {
@@ -176,7 +185,7 @@ div .head-portfolio {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-    margin: 0px 500px 16px 270px
+    margin: 0px 120px 16px 270px
 }
 
 .portfolio-comment {
@@ -185,10 +194,11 @@ div .head-portfolio {
 
 .rec-inline-1 {
     margin: 0px 120px 15px 240px;
+    display: inline;
 }
 
 .rec-inline-2 {
-    margin: 0px 120px 15px 240px;
+    display: inline;
 }
 
 /* subscribe related style */
@@ -202,9 +212,11 @@ div .head-portfolio {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
 }
 
-.subacribe-comment {
+.subscribe-comment {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -212,9 +224,123 @@ div .head-portfolio {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
+    padding: 0px 220px;
+    margin-top: 0%;
+}
+
+.like-mail {
+    padding: 80px 585px 0px 585px;
+    margin-bottom: 0%;
 }
 
 .into-the-bg {
     text-align: center;
+}
+
+.background {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+}
+
+.input-email {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 5px 200px 5px 30px;
+    margin: 10px 200px;
+}
+
+/* footer related style */
+
+footer {
+    flex-shrink: 0;
+    background: #070211;
+    margin-top: 120px;
+}
+
+
+
+#phone-number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#web-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ftr-column-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    padding: 120px 800px 50px 140px;
+}
+
+.ftr-column-right {
+    list-style: none;
+    padding: 120px 280px 50px 200px;
+}
+
+.footer-up {
+    display: flex;
+    gap: 560px;
+    color: #FFF;
+}
+
+.line {
+    width: 1320px;
+    height: 1px;
+}
+
+/* footer icon style */
+
+.ftr-icon {
+    display: flex;
+    padding: 45px 1150px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.ftr-icon a {
+    padding-left: 25px;
+}
+
+#ftr-down {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 50px 800px 120px 140px;
+}
+
+.ftr-fisnish {
+    display: flex;
+    gap: 200px;
+}
+
+#btn-unsubscribe {
+    margin: 80px 10px 140px 700px;
+    border: none;
 }

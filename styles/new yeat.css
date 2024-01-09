@@ -1,0 +1,150 @@
+/* common shared styles */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* banner related styles */
+
+.header-banner {
+    background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.banner.container {
+    padding: 200px 344px 177px 344px;
+}
+
+.banner-h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 344px;
+    margin-top: 16px;
+    padding-top: 0px;
+}
+
+.banner-h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 150px 500px 0px 500px;
+    margin-bottom: 16px;
+}
+
+/* 65% OFF Related Styles */
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 0%;
+}
+
+nav .font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+#discount {
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+#holiday-deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-bottom: 15px;
+}
+
+#catagory {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0%;
+}
+
+.new-year-photo {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+/* welcome for party related styles */
+
+div .party-everything {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0; 
+} 
+
+#party-year{
+    padding: 75px 120px 65px 25px;
+}
+
+.party {
+    display: flex;
+    align-items: center;
+}
+
+#welcome-for-party {
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 0%;
+    margin: 126px 94px 24px 120px;
+    font-family: 'Merriweather', serif;
+}
+
+#party-caption {
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0%;
+    margin: 0px 39px 32px 110px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.btn-join {
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px 600px 148px 150px;
+    border: none;
+    padding: 0%;
+}

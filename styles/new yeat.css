@@ -87,6 +87,7 @@ nav .font-inter {
     height: 500px;
     flex-shrink: 0;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 /* welcome for party related styles */
@@ -97,10 +98,10 @@ div .party-everything {
     margin: auto;
     width: 1320px;
     height: 600px;
-    flex-shrink: 0; 
-} 
+    flex-shrink: 0;
+}
 
-#party-year{
+#party-year {
     padding: 75px 120px 65px 25px;
 }
 
@@ -147,4 +148,73 @@ div .party-everything {
     margin: 0px 600px 148px 150px;
     border: none;
     padding: 0%;
+}
+
+/* Portfolio related Styles */
+
+.our-awesome-portfolio {
+    display: block;
+    margin: auto;
+}
+
+div .best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 120px 1200px 16px 270px;
+}
+
+div .head-portfolio {
+    display: inline;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0px 500px 16px 270px
+}
+
+.portfolio-comment {
+    margin: 0px 500px 16px 270px
+}
+
+.rec-inline-1 {
+    margin: 0px 120px 15px 240px;
+}
+
+.rec-inline-2 {
+    margin: 0px 120px 15px 240px;
+}
+
+/* subscribe related style */
+
+.subscribe {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subacribe-comment {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.into-the-bg {
+    text-align: center;
 }

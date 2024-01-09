@@ -151,6 +151,9 @@ div .party-everything {
 }
 
 /* Portfolio related Styles */
+.rectengle-pricture{
+    margin-bottom: 120px;
+}
 
 .all-about-portfolio {
     background-color: white;
@@ -185,15 +188,20 @@ div .head-portfolio {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-    margin: 0px 120px 16px 270px
+    margin: 0px 120px 16px 270px;
 }
 
 .portfolio-comment {
-    margin: 0px 500px 16px 270px
+    margin: 0px 500px 16px 270px;
 }
 
+.rectengle-pricture ul{
+    margin-left: 240px;
+}
+
+
 .rec-inline-1 {
-    margin: 0px 120px 15px 240px;
+    margin: 0px 120px 16px 270px;
     display: inline;
 }
 
